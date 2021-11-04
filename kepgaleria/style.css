@@ -1,0 +1,62 @@
+#kep-Nagy,#gomb-J, #gomb-B,.kep-valaszto{
+    box-sizing: border-box;
+    box-shadow: dimgrey 0px 0px 2px 1px;
+}
+main{
+    width: 60%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+body{
+    background-color: aliceblue;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#kep-nav-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#kep-Nagy{
+    width: 78%;
+    height: auto;
+}
+#gomb-J, #gomb-B{
+    width: 10%;
+    height: 200px;  
+}
+#gomb-J{
+    margin-left: 1%;
+}
+#gomb-B{
+    margin-right: 1%;
+}
+.kep-helye img{
+    width: 100%;
+    height: auto;
+}
+.kep-valaszto img {
+    width: 250px;
+    max-width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bazi-valaszto{
+    margin-top: 20%;;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
